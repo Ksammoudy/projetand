@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/editProjectTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom du Portfolio"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAddProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un Projet" />
+
+    <!-- Déclarez votre ListView pour afficher les projets -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/btnDeletePortfolio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Supprimer le Portfolio"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

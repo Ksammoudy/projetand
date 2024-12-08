@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Champ pour le titre -->
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titre du portfolio"
+        android:textSize="16sp" />
+
+    <!-- Champ pour la description -->
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description du portfolio"
+        android:inputType="textMultiLine"
+        android:minHeight="100dp"
+        android:gravity="top"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Bouton pour mettre à jour -->
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mettre à jour"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white" />
+
+    <!-- Bouton pour supprimer -->
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Supprimer"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

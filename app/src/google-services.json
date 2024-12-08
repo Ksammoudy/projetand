@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "565789581078",
+    "firebase_url": "https://projet-5def5-default-rtdb.firebaseio.com",
+    "project_id": "projet-5def5",
+    "storage_bucket": "projet-5def5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565789581078:android:6b66ffce184c645b1f3a37",
+        "android_client_info": {
+          "package_name": "a.fr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSXujZHGcNIRA1WL4Iptv2qmImFXIFQi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565789581078:android:9cf08a6b577a625f1f3a37",
+        "android_client_info": {
+          "package_name": "com.example.portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSXujZHGcNIRA1WL4Iptv2qmImFXIFQi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565789581078:android:a775f54930ed9ab81f3a37",
+        "android_client_info": {
+          "package_name": "fr.isimed.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSXujZHGcNIRA1WL4Iptv2qmImFXIFQi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565789581078:android:70a9e4464046b7771f3a37",
+        "android_client_info": {
+          "package_name": "fr.iutlan.gestionport"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSXujZHGcNIRA1WL4Iptv2qmImFXIFQi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565789581078:android:d481febf0b8299bc1f3a37",
+        "android_client_info": {
+          "package_name": "fr.iutlan.myportfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSXujZHGcNIRA1WL4Iptv2qmImFXIFQi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
